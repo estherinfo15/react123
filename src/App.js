@@ -1,7 +1,9 @@
 import './App.css';
+import ClientListComponent from './components/container/client_list';
+//import Father from './components/container/father';
 //import ContactListComponent from './components/container/contact_list';
 //import GreetingSyled from './components/pure/greetingSyled';
-import Clock from './hooks/clock';
+//import Clock from './hooks/clock';
 //import Ejemplo1 from './hooks/Ejemplo1';
 //import Ejemplo2 from './hooks/Ejemplo2';
 //import MiComponenteConContexto from './hooks/Ejemplo3';
@@ -13,7 +15,7 @@ import Clock from './hooks/clock';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/*<header className="App-header">*/}
         {/*componente propio greeting.jsx*/}
         {/*<Greeting name="Martin"></Greeting>*/}
         {/*componente de estado funcional */}
@@ -32,8 +34,10 @@ function App() {
           {/*</h3>
         </Ejemplo4>*/}
         {/*<GreetingSyled name='Martín'></GreetingSyled>*/}
-        <Clock></Clock>
-      </header>
+        {/*<Clock></Clock>*/}
+        {/*<Father></Father>*/}
+        <ClientListComponent></ClientListComponent>
+      {/*</header>*/}
     </div>
   );
 }
