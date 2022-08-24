@@ -1,5 +1,7 @@
 import './App.css';
-import ClientListComponent from './components/container/client_list';
+import ComponentColor from './components/pure/componentColor';
+//import OptionalRender from './components/pure/optionalRender';
+//import ClientListComponent from './components/container/client_list';
 //import Father from './components/container/father';
 //import ContactListComponent from './components/container/contact_list';
 //import GreetingSyled from './components/pure/greetingSyled';
@@ -36,7 +38,10 @@ function App() {
         {/*<GreetingSyled name='Martín'></GreetingSyled>*/}
         {/*<Clock></Clock>*/}
         {/*<Father></Father>*/}
-        <ClientListComponent></ClientListComponent>
+        {/*<ClientListComponent></ClientListComponent>*/}
+        {/**Ejemplos de renderizado condicional */}
+        {/*<OptionalRender></OptionalRender>*/}
+        <ComponentColor></ComponentColor>
       {/*</header>*/}
     </div>
   );

@@ -77,7 +77,7 @@ const TaskListComponent = () => {
                         </thead>
                         <tbody>
                             {tasks.map((task, index) => {
-                                return (
+                                return ({/**El renderizado condicional debe permitir pintar o mapear varias veces un elemento */}
                                     <TaskComponent
                                         key={index}
                                         task={task}
